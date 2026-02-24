@@ -1,19 +1,24 @@
-# Terraform AWS
+# Infra Project AWS
+Projeto laboratório utilizando Terraform como ferramenta de IaaC para criação de infraestrutura na AWS.
 
-Projeto para criação de máquinas na AWS utilizando o Terraform.
+## Requisitos:
+- Terraform
 
-## utilizando o projeto:
+## Como utilizar o projeto:
 
 ```bash
-
-# Baixar as dependências do projeto 
+# Inicializa o diretório de trabalho e baixa as dependências do projeto 
 terraform init
 
-# Validar e formatar os arquivos .tf
+# Valida a sintaxe e consistência dos arquivos .tf
 terraform validate
+
+# Padroniza a formatação do código
 terraform fmt
 
-# Planejar e fazer subir o projeto
+# Exibe o que será alterado
 terraform plan
+
+# Executa o projeto
 terraform apply
 ```
