@@ -1,5 +1,5 @@
-# Infra Project AWS
-Projeto laboratório utilizando Terraform como ferramenta de IaaC para criação de infraestrutura na AWS.
+# Infrastructure as Code Project - Digital Ocean
+Projeto laboratório utilizando Terraform como ferramenta de IaC para provisionar e gerenciar infraestrutura na AWS.
 
 ## Requisitos:
 - Terraform
